@@ -877,4 +877,4 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-bot.run("MTU0MzQyMzE4NjI0MTMyNzIzNQ.G7oci4.OGa_YsD1rkZauKaX4XrX5BxcWzrTkGZJOkp5Oo")
+bot.run(TOKEN)
