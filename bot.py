@@ -6,7 +6,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 from flask import Flask
 from threading import Thread
 
-app = Flask('')
+app = Flask(__name__)
 
 @app.route('/')
 def home():
