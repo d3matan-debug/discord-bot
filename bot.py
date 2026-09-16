@@ -1,5 +1,12 @@
+import os
 import discord
 from discord.ext import commands, tasks
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+
+
+
+
 import datetime
 import random
 import asyncio
@@ -877,4 +884,4 @@ async def on_message(message):
 
     await bot.process_commands(message)
 
-bot.run(TOKEN)
+
