@@ -900,5 +900,5 @@ async def on_message(message):
 
 
                 await message.channel.send(user_text, view=RobotTicketView())          
-# keep_alive() צריך להיות מופעל ממש לפני הרצת הבוט או ממש בהתחלה
+
 bot.run(TOKEN)
